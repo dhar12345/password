@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6401aff8;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2{
+    color: azure; 
+    margin: 20px 10px;
+}
+
+
+.container .content{
+    background-color: rgb(4, 192, 249);
+    width: 470px;
+    border-radius: 6%;
+    border: 2px solid #ffffff;
+    box-shadow: 5px 10px 40px rgb(121, 117, 4) ;
+}
+
+.container h4{
+    font-weight: bold;
+    color: azure;
+    margin:5px 5px;
+    padding: 5px 5px;
+    line-height: 10PX ;
+}
+
+.container .wrapper{
+    margin: 10px;
+    display: flex;
+    padding: 2px;
+    /* border: 1px solid red; */
+}
+
+.container .wrapper input{
+    border: 0px ;
+    outline: none;
+    padding: 7px;
+}
+
+.container .wrapper .icons .first{
+    background-color: white;
+    cursor: pointer;
+    padding: 9px;
+    line-height: 9px;
+    border: none;
+}
+
+.container .wrapper .icons .second{
+    /* display: none; */
+    background-color: white;
+    cursor: pointer;
+    padding: 9px;
+    line-height: 9px;
+    border: none;
+}
+
+.second{
+    display: none;
+}
+.container .content .btn{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+
+}
+.container .content #btn{
+    width: 30%;
+    padding: 5px 30px;
+    background-color: #1e90ff;
+    border-radius: 5%;
+    color: azure;
+    font-size: 17px;
+    font-weight: bold;
+}
+
